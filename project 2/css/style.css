@@ -104,7 +104,7 @@ header:after {
     padding-left: 220px;
 }
 
-.head-ref-item-chosen {
+.head-ref-item:hover {
     color: #c7b299;
 }
 
@@ -223,20 +223,18 @@ header:after {
     display: block;
     width: 10px;
     height: 10px;
-    opacity: 1;
     background-color: #ffffff;
     border-radius: 50%;
     border: 1px solid transparent;
 }
 
-.pagination-item:nth-child(2) {
-    display: block;
-    width: 12px;
-    height: 12px;
-    background-color: #3f3733;
+
+.pagination-item:hover {
+    background-color: transparent;
     border: 3px solid #ffdab9;
     transform: scale(1.2);
 }
+
 
 
 /*Section-feaures*/
