@@ -444,6 +444,7 @@ header:after {
     margin: 0;
 }
 
+
 .multipurpose-link {
     color: #fff;
     font-family: "Raleway-ExtraBold";
@@ -452,7 +453,6 @@ header:after {
     text-decoration: none;
     display: block;
     margin: 68px 374px;
-    50px 0px;
     float: right;
 }
 
@@ -656,3 +656,42 @@ header:after {
 .latest-projects-article:hover .article-preview_wrapper-title:before {
     border-bottom: 15px solid #362f2d;
 }
+
+.latest-projects-button {
+    color: #ffffff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.latest-projects-link {
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    margin: 20px 374px;
+    float: right;
+    text-decoration: none;
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+   
+}
+
+
