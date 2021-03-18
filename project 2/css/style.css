@@ -75,6 +75,10 @@ header:after {
     fill: white;
 }
 
+.header-logo-svg:hover {
+    fill: #c7b299;
+}
+
 .logo-txt {
     font-size: 34px;
     color: white;
@@ -84,6 +88,9 @@ header:after {
 .header-logo {
     margin: 30px 20px 0 0;
     fill: #ffffff;
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 .head-ref-item {
@@ -129,10 +136,20 @@ header:after {
     height: 60px;
     margin: 30px;
     border: none;
-    border-top: 3px solid #d3c1ad;
-    border-right: 3px solid #d3c1ad;
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
     transform: rotate(45deg);
     float: left;
+}
+
+.slider-arrow-left:hover{
+    border-top: 3px solid #d3c1ad;
+    border-right: 3px solid #d3c1ad;
+    
+}
+.slider-arrow-right:hover{
+    border-bottom: 3px solid #d3c1ad;
+    border-left: 3px solid #d3c1ad;
 }
 
 .header-middle {
@@ -586,22 +603,22 @@ header:after {
 
 .latest-projects-article .lock,
 .latest-projects-article .search {
-  display: none;
-  width: 20px;
-  height: 20px;
-  border: none;
-  background-color: red;
-  position: absolute;
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: red;
+    position: absolute;
 }
 
 .latest-projects-article .lock {
-  top: 40%;
-  left: 40%;
+    top: 40%;
+    left: 40%;
 }
 
 .latest-projects-article .search {
-  top: 40%;
-  left: 50%;
+    top: 40%;
+    left: 50%;
 }
 
 
