@@ -1,0 +1,658 @@
+@font-face {
+    font-family: "Raleway";
+    /*src: url("../fonts/Releway/static/Raleway-Light.ttf");*/
+    src: url("../fonts/raleway-variablefont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    /*src: url("../fonts/Releway/static/Raleway-Light.ttf");*/
+    src: url("../fonts/raleway-extrabold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    /*src: url("../fonts/Releway/static/Raleway-Light.ttf");*/
+    src: url("../fonts/raleway-semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat-regular.ttf") format("truetype");
+}
+
+.container {
+    width: 1920px;
+}
+
+.page-header {
+    width: 1920px;
+    min-height: 1024px;
+    background-image: url(../img/backgrheader.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    z-index: 3;
+}
+
+.page-header-div {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+    float: left;
+}
+
+.logo {
+    width: 180px;
+    margin-left: 376px;
+    /* height: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: absolute;
+    clear: both;
+}
+
+.logo-icon {
+    fill: white;
+}
+
+.header-logo-svg:hover {
+    fill: #c7b299;
+}
+
+.logo-txt {
+    font-size: 34px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-logo {
+    margin: 30px 20px 0 0;
+    fill: #ffffff;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.head-ref-item {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+.head-ref-item-last {
+    margin-right: 60px;
+}
+
+.head-references {
+    margin-top: 10px;
+    padding-left: 220px;
+}
+
+.head-ref-item:hover {
+    color: #c7b299;
+}
+
+.slider-arrow-right {
+    border: 1px solid black;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    transform: rotate(45deg);
+    float: left;
+}
+
+
+.slider-arrow-left {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    border: none;
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    transform: rotate(45deg);
+    float: left;
+}
+
+.slider-arrow-left:hover {
+    border-top: 3px solid #d3c1ad;
+    border-right: 3px solid #d3c1ad;
+
+}
+
+.slider-arrow-right:hover {
+    border-bottom: 3px solid #d3c1ad;
+    border-left: 3px solid #d3c1ad;
+}
+
+.header-middle {
+    width: 1920px;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 381px;
+    left: 150px;
+}
+
+.header-text {
+    float: left;
+    text-align: center;
+    margin: 0 400px;
+
+}
+
+
+.btn-link {
+    width: 170px;
+    height: 53px;
+    border-radius: 5px;
+    padding: 21px 39px 21px 37px;
+
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid #736357;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #998675;
+
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+
+.btn-link-txt {
+    color: #fff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-text-h1 {
+    width: 589px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 52px;
+    font-weight: 400;
+    margin: 14px 0 19px 0;
+
+}
+
+.header-text-h2 {
+    width: 560px;
+    height: 34px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+
+.header-text-p {
+    width: 562px;
+    height: 39px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0 0 82px 0;
+}
+
+
+.pagination {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 42px;
+    left: 909px;
+}
+
+.pagination-item {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+
+.pagination-item:hover {
+    background-color: transparent;
+    border: 3px solid #ffdab9;
+    transform: scale(1.2);
+}
+
+
+
+/*Section-feaures*/
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 266px;
+    height: 225px;
+    margin: 80px 30px 60px 0px;
+
+    box-sizing: border-box;
+    /* border: 1px solid black;
+     padding: 10px 10px 0 10px;*/
+}
+
+.features:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: #f1eee9;
+}
+
+.features:hover .features-icon {
+    fill: #c7b299;
+}
+
+.features:hover .features-title {
+    color: #c7b299;
+}
+
+.features:hover:after {
+    background-color: #c7b299;
+}
+
+.features-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0;
+}
+
+.features-title {
+    width: 100%;
+    height: 21px;
+    font-family: "Raleway-SemiBold";
+    color: #555555;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.features-txt {
+    text-align: center;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.section-feaures {
+    display: flex;
+    justify-content: center;
+    min-height: 370px;
+    width: 100%;
+}
+
+
+/*Waxom is Realization of your Ideas.*/
+
+.realization {
+    width: 100%;
+    min-height: 700px;
+    background-color: #fbfaf8;
+    overflow: auto;
+}
+
+.realization-h2 {
+    width: 100%;
+    text-align: center;
+    min-height: 28px;
+    color: #555555;
+    font-family: "Raleway-SemiBold";
+    font-size: 37px;
+    font-weight: 400;
+    margin: 83px 0 24px 0;
+}
+
+.realization-p {
+    width: 757px;
+    height: 43px;
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+
+.realization-photo {
+    width: 65%;
+    min-height: 483px;
+    background-image: url('../img/browser-center.png'),
+        url('../img/browser-left.png'),
+        url('../img/browser-right.png');
+
+    background-size: 60%, 60%, 60%;
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Multipurpose WordPress*/
+
+
+.multipurpose {
+    width: 100%;
+    min-height: 150px;
+    background: -webkit-linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
+    background: -moz-linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
+    background: linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
+
+    overflow: auto;
+}
+
+
+.multipurpose-text {
+    float: left;
+    margin: 17px 0px 31px 370px;
+
+}
+
+.multipurpose-h2 {
+    height: 27px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 29px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.multipurpose-h2-first {
+    color: #998675;
+}
+
+.multipurpose-link {
+    display: block;
+    float: right;
+}
+
+.multipurpose-p {
+    width: 470px;
+    color: #615855;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+}
+
+.multipurpose-button {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 19px 28px;
+
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid #736357;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #998675;
+
+    -ms-word-break: break-all;
+    word-break: break-all;
+    margin: 0;
+}
+
+.multipurpose-link {
+    color: #fff;
+    font-family: "Raleway-ExtraBold";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    margin: 68px 374px;
+    50px 0px;
+    float: right;
+}
+
+
+
+
+
+/*Our Latest Projects.*/
+
+.latest-projects {
+    width: 100%;
+    min-height: 1165px;
+
+}
+
+.latest-projects-h2 {
+    width: 100%;
+    color: #555555;
+    font-family: "Raleway-SemiBold";
+    font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.latest-projects-p {
+    width: 757px;
+    min-height: 43px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.latest-projects-menu {
+    width: 602px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.latest-projects-article {
+    width: 370px;
+    height: 337px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.latest-projects-menu-ul {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-projects-menu-item {
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    padding: 10px 17px 8px 18px;
+}
+
+.latest-projects-menu-item:hover {
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.article-preview-title {
+    color: #c7b299;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: -3px;
+    margin-bottom: 5px;
+    ;
+}
+
+.article-preview-txt {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+.latest-projects-img {
+    margin-bottom: -4px;
+}
+
+.article-preview_wrapper-title {
+    width: 370px;
+    height: 100px;
+    background-color: #fbfaf8;
+    padding: 20px 0 0 28px;
+    position: relative;
+    /*border: 1px solid red;
+    box-sizing: border-box;*/
+}
+
+.latest-projects-div {
+    margin: 40px 347px 10px 376px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article-preview_wrapper-title:before {
+    content: "";
+    border: 15px solid transparent;
+    border-bottom: 15px solid #fbfaf8;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+}
+
+/*.lock,
+.search {
+  width: 20px;
+  height: 20px;
+  display: none;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 45%
+}
+*/
+
+.latest-projects-article .lock,
+.latest-projects-article .search {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+
+.latest-projects-article .lock {
+    top: 40%;
+    left: 40%;
+}
+
+.latest-projects-article .search {
+    top: 40%;
+    left: 50%;
+}
+
+
+.lock,
+.search {
+    fill: #ffffff;
+}
+
+.lock:hover,
+.search:hover {
+    fill: #c7b299;
+}
+
+
+.latest-projects-article:hover .lock,
+.latest-projects-article:hover .search {
+    display: block;
+}
+
+.latest-projects-article:hover .lock:hover,
+.latest-projects-article:hover .search:hover {
+    background: transparent;
+}
+
+
+.latest-projects-article:hover .latest-projects-img {
+    filter: brightness(30%);
+}
+
+.latest-projects-article:hover .article-preview_wrapper-title {
+    background-color: #362f2d;
+}
+
+.latest-projects-article:hover .article-preview_wrapper-title:before {
+    border-bottom: 15px solid #362f2d;
+}
