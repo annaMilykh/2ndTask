@@ -142,12 +142,13 @@ header:after {
     float: left;
 }
 
-.slider-arrow-left:hover{
+.slider-arrow-left:hover {
     border-top: 3px solid #d3c1ad;
     border-right: 3px solid #d3c1ad;
-    
+
 }
-.slider-arrow-right:hover{
+
+.slider-arrow-right:hover {
     border-bottom: 3px solid #d3c1ad;
     border-left: 3px solid #d3c1ad;
 }
@@ -607,7 +608,7 @@ header:after {
     width: 20px;
     height: 20px;
     border: none;
-    background-color: red;
+    background: transparent;
     position: absolute;
 }
 
@@ -622,6 +623,17 @@ header:after {
 }
 
 
+.lock,
+.search {
+    fill: #ffffff;
+}
+
+.lock:hover,
+.search:hover {
+    fill: #c7b299;
+}
+
+
 .latest-projects-article:hover .lock,
 .latest-projects-article:hover .search {
     display: block;
@@ -629,7 +641,7 @@ header:after {
 
 .latest-projects-article:hover .lock:hover,
 .latest-projects-article:hover .search:hover {
-    background-color: green;
+    background: transparent;
 }
 
 
