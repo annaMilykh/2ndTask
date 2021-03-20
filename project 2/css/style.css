@@ -784,9 +784,6 @@ header:after {
 }
 
 
-
-
-
 /*Excellent for Mobile Devices.*/
 
 .mobile-section {
@@ -868,6 +865,8 @@ header:after {
 
 
 
+/*number-info */
+
 .aside-number-info {
     width: 1920px;
     height: 300px;
@@ -877,7 +876,6 @@ header:after {
     background: -webkit-linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
     background: -moz-linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
     background: linear-gradient(45deg, rgb(38, 30, 26), rgb(75, 51, 38));
-    overflow: auto;
     padding-left: 100px;
     box-sizing: border-box;
 }
@@ -905,7 +903,6 @@ header:after {
 .number-info-icon {
     display: block;
     fill: #c7b299;
-    ;
     /*margin: 0 0 20px 0;*/
 }
 
@@ -936,15 +933,15 @@ header:after {
 }
 
 
+/*recent-posts-section*/
 
 .recent-posts-section {
     width: 100%;
     height: 755px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 75px 374px 80px 376px;
+    padding: 75px 370px 40px 370px;
     box-sizing: border-box;
 }
 
@@ -974,7 +971,7 @@ header:after {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 .recent-posts-section-p {
@@ -988,7 +985,7 @@ header:after {
     letter-spacing: normal;
     line-height: 28px;
     text-align: center;
-    margin: 0 206px;
+    margin: 10px 206px 30px 206px;
     padding-bottom:
 }
 
@@ -1038,17 +1035,6 @@ header:after {
 }
 
 
-/*.recent-posts-img {
-    position: absolute;
-}
-
-.recent-posts-date{
-    position: relative;
-}
-*/
-
-
-
 .recent-posts-day {
     display: block;
     width: 50px;
@@ -1081,26 +1067,94 @@ header:after {
     text-align: center;
 }
 
-
-.recent-posts-article:hover .lock,
-.recent-posts-article:hover .search {
-    display: block;
+.recent-posts-buttton {
+    border: none;
+    background: #ffffff;
+    outline: none;
 }
 
-.recent-posts-article:hover .lock:hover,
-.recent-posts-article:hover .search:hover {
-    background: transparent;
+.recent-posts-svg {
+    fill: #dadada;
 }
 
+.recent-posts-svg:hover {
+    fill: #d1c0ac;
+}
+
+.recent-posts-img-div {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.recent-posts-date {
+    position: absolute;
+    z-index: 2;
+    top:20px;
+    left: 20px;
+}
+
+.recent-posts-buttons-div{
+  margin-top: 20px;   
+}
+.recent-posts-svg{
+    
+}
 
 .recent-posts-article:hover .recent-posts-img {
-    filter: brightness(30%);
+    filter: brightness(50%);
 }
 
 .recent-posts-article:hover .recent-posts-div {
     background-color: #362f2d;
+     border: 1px solid #362f2d;
 }
 
+
+.recent-posts-article:hover .recent-posts-title {
+    color: #c7b299;
+}
+
+.recent-posts-article:hover .recent-posts-txt {
+    color: #ffffff;
+}  
+
+.recent-posts-article:hover .recent-posts-day {
+   background-color: #c7b299;
+}
+.recent-posts-article:hover .recent-posts-month {
+background-color: #a48d72;
+}
 .recent-posts-article:hover .recent-posts-div:before {
     border-bottom: 15px solid #362f2d;
 }
+
+
+/*label-section*/
+
+.label-section {
+    width: 1920px;
+    height: 489px;
+    background-image: url(../img/back-img-labeles.png);
+    background-repeat: no-repeat;
+    filter: brightness(55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 7;
+    box-sizing: border-box;
+}
+
+.label-section-img {
+   margin-right: 90px;
+    position: relative;
+    z-index: 8
+}
+
+
+
+
+
+
+
